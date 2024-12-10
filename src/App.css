@@ -1,0 +1,204 @@
+/* Home page */
+.images {
+    background-image: url(/src/image/f61af8_97a68d95c3584eee8952b7b3184f5f80~mv2_d_6924_3840_s_4_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    opacity: 0.9;
+}
+
+.collapse {
+    visibility: visible;
+}
+
+.collapse navbar-collapse li {
+    margin-left: 10%;
+}
+
+
+
+
+.para {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paraa {
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.paraa:hover {
+    background-color: #20303c;
+    border: none;
+}
+
+/* portfolio page */
+.imagess1 {
+    background-image: url(/src/image/f61af8_2ef1fc57fdd849a19df076e8fb6e036f~mv2_d_2681_2546_s_4_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .imagess1 {
+        padding-top: 20%;
+    }
+
+    .imagess2 {
+        padding-top: 20% !important;
+
+    }
+
+    .imagess3 {
+        padding-top: 20% !important;
+    }
+}
+
+.imagess2 {
+    background-image: url(/src/image/f61af8_0865ef003a1740f9b703014d3b57e3fa~mv2_d_4928_3264_s_4_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.imagess3 {
+    background-image: url(/src/image/f61af8_0ecca2bc73f444c98e8de071bb2ce81c~mv2_d_1927_1272_s_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+/* About page */
+#contain {
+    background-color: rgb(240, 243, 246);
+    margin-top: 30px;
+}
+
+/* Books page */
+.books {
+    background-color: rgb(240, 243, 246);
+}
+
+.paraaa {
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.paraaa:hover {
+    background-color: #20303c;
+    border: none;
+    color: white;
+}
+
+#breaks {
+    background-color: rgb(240, 243, 246);
+}
+
+#breakss {
+    background-color: rgb(240, 243, 246);
+    margin-top: 10px;
+}
+
+/* Client Albums page */
+.imagess10 {
+    background-image: url(/src/image/8bb438_391be5ba664646cf85efa862bf2f93be~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.imagess20 {
+    background-image: url(/src/image/8bb438_46776c5ebdfa4c2d93f77358e5b2fd41~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.imagess30 {
+    background-image: url(/src/image/8bb438_5571b62b21074416a94a6e7cb48567e8~mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+/* contact page */
+.para1 {
+    width: 450px;
+}
+
+.names {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.sub {
+    background-color: #20303c;
+    color: white;
+    width: 130px;
+    padding: 4px;
+}
+
+.submit {
+    background-color: rgb(39 58 78);
+    color: white;
+    width: 100px;
+    text-align: center;
+    float: inline-end;
+    margin-right: 22%;
+}
+
+.img1 {
+    height: 850px;
+}
+
+@media only screen and (max-width: 900px) {
+    .submit {
+        float: inline-start;
+        margin-left: 20%;
+    }
+
+    .sub {
+        margin-left: 15%;
+    }
+}
